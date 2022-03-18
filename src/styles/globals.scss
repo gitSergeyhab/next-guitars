@@ -1,0 +1,42 @@
+// @import 'fonts.scss';
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@import 'style.min.css';
+
+.rect-rate {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  height: 22px;
+
+  justify-content: flex-end;
+
+  color: #c90606;
+
+
+}
+.rect-rate label {
+  cursor: pointer;
+}

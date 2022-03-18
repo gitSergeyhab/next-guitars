@@ -1,0 +1,22 @@
+.rect-rate {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  width: 100%;
+
+  height: 22px;
+
+  justify-content: flex-end;
+
+  color: #c90606;
+
+
+}
+.rect-rate label {
+  cursor: pointer;
+}
+
+
